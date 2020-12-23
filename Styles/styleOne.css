@@ -1,0 +1,55 @@
+body {
+  width: 100%;
+  min-width: 1024px;
+  max-width: 1920px;
+  background-color: white;
+}
+h1 {
+  font-family: Consolas;
+  font-size: 24pt;
+  font-weight: bold;
+  text-align: center;
+}
+hr{
+  font-size: 10pt;
+}
+.menuBar{
+  top:0%;
+  z-index: 1;
+  height: 100%;
+  width: 14%;
+  background-color: black;
+  position: fixed;
+  text-decoration-color: white;
+}
+.menuBartwo{
+  top:0%;
+  z-index: 1;
+  height: 100%;
+  width: 14%;
+  background-color: black;
+  left: 88%;
+  position: fixed;
+  text-decoration-color: white;
+}
+.menuBar a:hover, .menuBartwo a:hover{
+  color: yellow;
+}
+.menuBar a, .menuBartwo a, .menuBartwo p{
+  font-weight: bolder;
+  font-style:normal;
+  font-family: Consolas;
+  color: white;
+  text-align: left;
+}
+
+.contentMain {
+  width: 70%;
+  text-align: justify;
+  position: relative;
+  left:15%;
+  text-overflow: clip
+}
+.contentMain img {
+  width: 65%;
+}
