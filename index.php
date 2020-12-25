@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <link type="text/css" rel="stylesheet" href="Styles/styleOne.css">
     <script type="text/javascript" src="javascript/jquery-3.5.1.js"></script>
     <script type="text/javascript" src="javascript/one.js"></script>
@@ -12,18 +13,19 @@
   </head>
 
   <body>
+    <div class="mainPage">
+    <h1 class="hMain">САЙТ О МОБИЛЬНОЙ ФОТОГРАФИИ</h1>
+    <img src="images/LOGO.jpg">
+    <ul>
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">Статьи</a></li>
+      <li><a href="#">Ваши работы</a></li>
+      <li><a href="#">О нас</a></li>
+    </ul>
 
-    <h1>САЙТ О МОБИЛЬНОЙ ФОТОГРАФИИ</h1> <hr>
-    <div class="menuBar">
-        <a href="#">Главная</a><br>
-        <a href="#">Статьи</a><br>
-        <a href="#">Ваши работы</a><br>
-        <a href="#">О нас</a>
-    </div>
-    <div class="menuBartwo">
-        <p>Рекомендации</p><br>
-        <a href="#">Уроки</a><br>
-        <a href="#">Поддержать проект</a><br>
+
+
+
     </div>
     <div class="contentMain">
       <h2>1. Познакомьтесь с экспозицией поближе</h2>
