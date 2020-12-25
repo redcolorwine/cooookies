@@ -7,26 +7,23 @@
     <link type="text/css" rel="stylesheet" href="Styles/styleOne.css">
     <script type="text/javascript" src="javascript/jquery-3.5.1.js"></script>
     <script type="text/javascript" src="javascript/one.js"></script>
-    <title>
-     Новый взгляд на мобильную фотографию
-    </title>
+    <title>Новый взгляд на мобильную фотографию</title>
+    <link rel="icon" href="images/icons/cam.ico" type="image/x-icon">
   </head>
 
   <body>
+
     <div class="mainPage">
-    <h1 class="hMain">САЙТ О МОБИЛЬНОЙ ФОТОГРАФИИ</h1>
-    <img src="images/LOGO.jpg">
-    <ul>
-      <li><a href="#">Главная</a></li>
-      <li><a href="#">Статьи</a></li>
-      <li><a href="#">Ваши работы</a></li>
-      <li><a href="#">О нас</a></li>
-    </ul>
-
-
-
-
+      <h1 class="hMain">САЙТ О МОБИЛЬНОЙ ФОТОГРАФИИ</h1>
+      <img src="images/LOGO.jpg">
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Статьи</a></li>
+        <li><a href="#">Ваши работы</a></li>
+        <li><a href="#">О нас</a></li>
+      </ul>
     </div>
+
     <div class="contentMain">
       <h2>1. Познакомьтесь с экспозицией поближе</h2>
       <p>Экспозиция — это то количество света, которое проникает на матрицу камеры через линзу.
@@ -56,7 +53,25 @@
       Пробуйте работать с контровым светом — оставляйте освещение позади объекта съемки. И помните о важных моментах:
       </p>
       <img src="images/3.jpg">
+
+
+
+    </div>
+
+    <div class="helpBar">
+      <menu>
+        <li><a href="#"><img src="images/icons/cell-phone.png"></a></li>
+        <li><a href="#"><img src="images/icons/magnifying-glass.png"></a></li>
+        <li><a href="#"><img src="images/icons/home-page.png"></a></li>
+        <li><a href="#"><img src="images/icons/envelope.png"></a></li>
+          <li><a href="#"><img src="images/icons/facebook-logo.png"></a></li>
+          <li><a href="#"><img src="images/icons/instagram-logo.png"></a></li>
+          <li><a href="#"><img src="images/icons/vk-reproductor.png"></a></li>
+        </menu>
+      </div>
+
     </div>
 
   </body>
+
 </html>

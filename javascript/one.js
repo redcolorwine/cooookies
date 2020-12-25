@@ -1,4 +1,4 @@
-let message=prompt("Введите логин!");
+/*let message=prompt("Введите логин!");
 if (message=="Админ"){
   message=prompt("Введите пароль!");
   if(message=="Я главный") {
@@ -8,4 +8,4 @@ if (message=="Админ"){
   } else alert("Пароль неверный!");
 } else if (message==null) {
   alert("Отменено");
-}
+}*/
