@@ -1,7 +1,11 @@
-"use strict";//активируем ECMAScript, т.е. современные правила языка
-let message = prompt("Как тебя зовут?", "Петя");
-  if (typeof message==='string'){
-    alert(`Добро пожаловать ${message} !`);}
-    else {
-    alert("Привет гость!");
-    }
+let message=prompt("Введите логин!");
+if (message=="Админ"){
+  message=prompt("Введите пароль!");
+  if(message=="Я главный") {
+    alert("Здравствуйте!");
+  } else if (message==null) {
+    alert("Отменено");
+  } else alert("Пароль неверный!");
+} else if (message==null) {
+  alert("Отменено");
+}
